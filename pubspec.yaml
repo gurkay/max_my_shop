@@ -1,0 +1,40 @@
+name: max_my_shop
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.2
+  intl: ^0.17.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  fonts:
+    - family: OpenSans
+      fonts:     
+        - asset: assets/fonts/OpenSans-Light.ttf
+        - asset: assets/fonts/OpenSans-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/OpenSans-ExtraBold.ttf
+          weight: 700
